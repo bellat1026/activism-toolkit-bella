@@ -118,7 +118,7 @@ li.nav a:hover {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 0%; /* Change this value to move the box up or down */
+  top: 30%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -142,7 +142,7 @@ li.nav a:hover {
   background-color: #43d6b9ff; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
+  color: #31595E; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -210,6 +210,8 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-
+@media mediatype and (.flexcontainer) {
+/* CSS rule sets */
+}
 
 /* TODO: Add additional breakpoints based on your website's design
