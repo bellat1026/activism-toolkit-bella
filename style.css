@@ -181,11 +181,12 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
+background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fcropped_image_l.png?v=1595991989041");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F46365_en_bddc6_32180_tomra-environmental-pollution.jpg?v=1595992268610");
 }
 
 /* TODO: Replace the current image URL with your own */
