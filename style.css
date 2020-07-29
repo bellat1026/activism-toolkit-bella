@@ -118,16 +118,16 @@ li.nav a:hover {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 0%; /* Change this value to move the box up or down */
+  top: 30%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
+  *border-style: dotted;
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: ##43d6b9ff;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
