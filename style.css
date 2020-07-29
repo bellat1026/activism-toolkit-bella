@@ -111,14 +111,14 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #31595E;
   padding: 5px;
 
   /* Positioning properties */
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
+  top: 0%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
