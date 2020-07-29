@@ -181,12 +181,11 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fcropped_image_l.png?v=1595991989041");
 }
 
 /* TODO: Replace the current image URL with your own */
@@ -210,8 +209,11 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-@media mediatype and (.flexcontainer) {
-/* CSS rule sets */
+@media mediatype and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
 }
 
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design*/
