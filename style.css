@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #D35B3F;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #DED797;
 }
 
 /* TODO (optional): Change the font size*/
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #DED797;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,8 +94,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #BOC38D;
+  color: #DED797;
 }
 
 /************************************************/
@@ -181,7 +181,7 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
@@ -191,7 +191,7 @@ background-attachment: fixed;
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F26-2-e1587843829616.jpeg?v=1595993481432");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F960x0.jpg?v=1595993618368");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
