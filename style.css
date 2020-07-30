@@ -20,8 +20,8 @@ html {
   font-family: "Roboto", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: #6e485e; /* Change the font color*/
-  background-color: #31595E; /* Change the background color */
+  color: #DED797; /* Change the font color*/
+  background-color: #42617d; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -39,14 +39,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 30px;
   font-family: "Roboto Mono", sans-serif;
-  color: #D35B3F;
+  color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #D35B3F;
+  color: #43d6b9ff;
   text-decoration: none;
   text-decoration: underline;
 }
@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #43d6b9ff;
+  background-color: #1e3449;
   padding: 20px 45px;
   margin: 35px;
   font-size: 22px;
