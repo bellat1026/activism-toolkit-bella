@@ -147,10 +147,8 @@ p a {
 /* Left box under title; item in .flex-container */
 .action-info-container {
   width: 100%;
- margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 7%;
-  margin-bottom: 0.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   padding: 30px;
   font-size: 16px;
   flex-grow: 2;
@@ -203,10 +201,10 @@ p a {
 
 /* Intructions inside the list container */
 #instructions {
-  font: 14px "Roboto", sans-serif;
+  font: 14px "Bitter", serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -228,7 +226,8 @@ p a {
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  color: black;
+  font: "Bitter", serif;
+  color: #1e3449;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
