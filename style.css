@@ -75,7 +75,7 @@ li.nav a {
   color: #43d6b9ff;
   text-align: center;
   padding: 12px 14px;
-  font-size: 23px;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -86,7 +86,7 @@ li.nav a {
 li.logo {
   display: block;
   color: #DED797;
-  font-size: 38px;
+  font-size: 35px;
   text-align: left;
   padding: 12px 14px;
   text-decoration: none;
@@ -160,13 +160,13 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 .text-section {
   background-color: #1e3449;
-  padding: 20px 45px;
+  padding: 18px 42px;
   margin: 35px;
-  font-size: 22px;
+  font-size: 23px;
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Sans HK', sans-serif;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
