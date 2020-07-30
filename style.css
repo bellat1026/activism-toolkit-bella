@@ -166,7 +166,8 @@ li.nav a:hover {
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 /* TODO: Add the CSS selector for each image to the collective image rule set */
-.main-message {
+.main-message,
+.image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,7 +178,6 @@ li.nav a:hover {
   background-attachment: fixed;
 }
 
-.image-one,
 .image-two {
   position: relative;
   background-position: center;
