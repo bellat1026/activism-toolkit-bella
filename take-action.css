@@ -150,22 +150,13 @@ p a {
  margin-right: 0%;
   margin-left: 0%;
   margin-top: 7%;
-  margin-bottom: 5%;
-  padding: 35px;
+  margin-bottom: 0.5%;
+  padding: 30px;
   font-size: 16px;
   flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-.action-info-container img {
-  width: 25%;
-   border-radius: 15px;
-  border-style: solid;
-  border-color: #43d6b9ff;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* Right box under title; item in .flex-container */
 .action-list-container {
@@ -178,6 +169,17 @@ p a {
   margin-left: auto;
   margin-right: auto;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+}
+
+ img {
+  width: 25%;
+   border-radius: 15px;
+  border-style: solid;
+  border-color: #43d6b9ff;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+   margin-bottom: 2%;
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
