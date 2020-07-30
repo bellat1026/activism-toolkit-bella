@@ -226,16 +226,14 @@ p a {
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  font: "Bitter", serif;
-  color: #1e3449;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+    /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Styling for the check squares added at the beginning of each list item */
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: #1e3449;
   border-style: solid;
   border-width: 2px;
 
@@ -261,7 +259,7 @@ like a checkmark!
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: #1e3449;
   border-style: solid;
 }
 
