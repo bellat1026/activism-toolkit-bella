@@ -168,6 +168,7 @@ li.nav a:hover {
   border-color: #43d6b9ff;
   font-family: "Noto Sans HK", sans-serif;
   box-shadow: 8px 8px;
+  min-height: 10%;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/

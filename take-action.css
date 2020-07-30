@@ -232,7 +232,7 @@ img {
   transition: 0.2s;
   width: 85%;
   font: "Barlow Condensed", sans-serif;
-  color: #43d6b9ff;
+  color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -240,7 +240,7 @@ img {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #b26861;
+  border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
 
