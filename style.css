@@ -64,7 +64,7 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #1e3449;
   border-style: solid;
-  border-color:#b26861;
+  border-color:#43d6b9ff;
   
 }
 
@@ -73,27 +73,27 @@ ul.nav-bar {
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
-  font-size: 15px;
+  font-size: 16px;
 }
-
 /* TODO (optional): Change the font color, decoration, and/or case */
 
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #b26861;
+  color: #43d6b9ff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  border-style: inset;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #BOC38D;
+  background-color: #b26861;
   color: #DED797;
 }
 
