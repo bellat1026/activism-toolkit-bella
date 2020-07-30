@@ -162,6 +162,9 @@ p a {
    border-radius: 15px;
   border-style: solid;
   border-color: #43d6b9ff;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Right box under title; item in .flex-container */
@@ -171,6 +174,9 @@ p a {
   margin: 5%;
   flex-grow: 1;
   background-color: #0d9c90;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
