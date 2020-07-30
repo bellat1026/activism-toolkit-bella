@@ -100,7 +100,7 @@ p a {
 }
 
 /******************************************************/
-/************** CSS FOR TAKE-ACTION.HTML **************/
+/************** CSS FOR TAKE-ACTION-HEADER.HTML **************/
 /******************************************************/
 .page-header-action {
   width: 70%;
@@ -116,6 +116,11 @@ p a {
   position: absolute;
   text-transform: uppercase;
   display: block;
+   right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1em;
   
 }
 
@@ -126,14 +131,11 @@ p a {
 /* Flexbox container that holds all flex items */
 .flex-container-action {
   display: flex;
-
   position: absolute;
   padding: 0.5em 0;
   align-items: center;
-
   left: 5%;
   right: 5%;
-
   margin: 5% 0;
   width: 90%;
 
