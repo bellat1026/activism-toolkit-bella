@@ -37,7 +37,7 @@ h1 {
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Roboto Mono", sans-serif;
   color: #D35B3F;
   text-align: center;
@@ -48,6 +48,7 @@ h2 {
 p a {
   color: #D35B3F;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 /************************************************/
@@ -64,8 +65,7 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #1e3449;
   border-style: solid;
-  border-color:#43d6b9ff;
-  
+  border-color:#43d6b9ff; 
 }
 
 /* TODO (optional): Change the font size*/
@@ -87,6 +87,7 @@ li.nav a {
   text-transform: uppercase;
   font-weight: bold;
   border-style: inset;
+  border-color: #aacad3;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -142,7 +143,7 @@ li.nav a:hover {
   padding: 4%;
   margin: 3%;
   color: #31595E; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
+  font-size: 25px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
@@ -163,6 +164,7 @@ li.nav a:hover {
   background-color: #43d6b9ff;
   padding: 20px 45px;
   margin: 35px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -201,7 +203,7 @@ li.nav a:hover {
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
-  font-size: 12px;
+  font-size: 17px;
   text-align: right;
   margin-right: 10px;
 }
