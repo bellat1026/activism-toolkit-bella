@@ -20,8 +20,8 @@ html {
   font-family: "Roboto", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: white; /* Change the font color*/
-  background-color: black; /* Change the background color */
+  color: #6e485e; /* Change the font color*/
+  background-color: #31595E; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  color: #DED797;
   text-align: center;
   line-height: 1.3em;
 }
@@ -53,8 +53,6 @@ p a {
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
-
-/* All of these TODOs are optional. You should change the styling based on your mockup */
 
 /* TODO (optional): Change the background color and/or border style */
 
@@ -161,7 +159,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #43d6b9ff;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
