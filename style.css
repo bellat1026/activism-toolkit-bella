@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: #DED797; /* Change the font color*/
-  background-color: #42617d; /* Change the background color */
+  background-color: #1e3449; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -65,7 +65,7 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #1e3449;
   border-style: solid;
-  border-color:#43d6b9ff; 
+  border-color: #43d6b9ff;
 }
 
 /* TODO (optional): Change the font size*/
@@ -113,6 +113,8 @@ li.nav a:hover {
   /* Design properties */
   background-color: #31595E;
   padding: 5px;
+  border-style: outset;
+  border-color: #1e3449;
 
   /* Positioning properties */
   position: absolute;
@@ -166,6 +168,8 @@ li.nav a:hover {
   margin: 35px;
   font-size: 22px;
   text-align: center;
+  border-style: solid;
+  border-color: #43d6b9ff;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
