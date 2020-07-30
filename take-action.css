@@ -188,7 +188,7 @@ img {
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: #bda693;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -200,7 +200,7 @@ img {
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #0D38D3;
+  color: #b26861;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -240,7 +240,7 @@ img {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: #b26861;
   border-style: solid;
   border-width: 2px;
 
