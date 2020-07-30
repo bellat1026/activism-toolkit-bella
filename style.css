@@ -187,7 +187,17 @@ li.nav a:hover {
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
-.main-message,
+.main-message {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43d6b9ff;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
+}
+
 .image-one,
 .image-two {
   position: relative;
@@ -195,8 +205,7 @@ li.nav a:hover {
   background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
-  min-height: 100%; /* This adjusts the height of the image */
-
+  min-height: 80%; /* This adjusts the height of the image */
   /* TODO: Add the property to create the parallax scrolling effect here */
   background-attachment: fixed;
 }
@@ -208,7 +217,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fsafety-net-3289548_1280.jpg?v=1596083174514");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F01-animals-plastic-nationalgeographic_2729678.jpg?v=1596083812521");
 }
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
