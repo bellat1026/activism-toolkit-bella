@@ -203,16 +203,16 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fconcepts-4916635_1280.jpg?v=1596071563529");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fbeach-4894537_1280.jpg?v=1596082963419");
 }
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fgarbage-4634114_1280.jpg?v=1596071739288");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fsafety-net-3289548_1280.jpg?v=1596083174514");
 }
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F960x0.jpg?v=1595993618368");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fpollution-4855498_1280.jpg?v=1596083019382");
 }
 /* TODO: Add more background images by repeating the process above */
 
