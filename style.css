@@ -1,17 +1,11 @@
-/* 
-
-This CSS file is contains the CSS rule sets for 
+/* This CSS file is contains the CSS rule sets for 
     - index.html
     - any universal elements that all pages use
-
-The CSS for the take-action.html is in take-action.css
-
-*/
+The CSS for the take-action.html is in take-action.css*/
 
 /************************************************/
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
-
 /* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
@@ -54,31 +48,28 @@ p a {
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
-
-/* TODO (optional): Change the background color and/or border style */
-
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  /* TODO (optional): Change the background color and/or border style */
   background-color: #1e3449;
   border-style: solid;
   border-color: #43d6b9ff;
 }
 
-/* TODO (optional): Change the font size*/
-
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
+  /* TODO (optional): Change the font size*/
   font-size: 16px;
 }
-/* TODO (optional): Change the font color, decoration, and/or case */
 
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
+  /* TODO (optional): Change the font color, decoration, and/or case */
   display: block;
   color: #43d6b9ff;
   text-align: center;
@@ -89,6 +80,7 @@ li.nav a {
   border-style: inset;
   border-color: #aacad3;
 }
+
 li.logo {
   display: block;
   color: #DED797;
@@ -102,7 +94,6 @@ li.logo {
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #b26861;
@@ -112,7 +103,6 @@ li.nav a:hover {
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
-
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
   display: flex; /* Set the flexbox display */
@@ -145,9 +135,6 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
@@ -160,19 +147,13 @@ li.nav a:hover {
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
 /************************************************/
 /*************** PARALLAX SCROLL ****************/
 /************************************************/
-
 /*-----------TEXT SECTIONS-----------*/
-
 /* TODO (optional): Change the background color and/or text alignment */
-
 .text-section {
   background-color: #1e3449;
   padding: 20px 45px;
@@ -184,9 +165,7 @@ li.nav a:hover {
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
-
 /* TODO: Add the CSS selector for each image to the collective image rule set */
-
 .main-message {
   position: relative;
   background-position: center;
@@ -217,13 +196,12 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F01-animals-plastic-nationalgeographic_2729678.jpg?v=1596083812521");
+  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F01-animals-plastic-nationalgeographic_2729678.jpg?v=1596084571434");
 }
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
   background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fpollution-4855498_1280.jpg?v=1596083019382");
 }
-/* TODO: Add more background images by repeating the process above */
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -235,7 +213,6 @@ li.nav a:hover {
 /******************************************************/
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
-
 /* TODO: Add a breakpoint if the screen is 700px or less */
 @media mediatype and (max-width: 700px) {
   .flex-container {
