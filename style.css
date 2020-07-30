@@ -24,7 +24,7 @@ h1 {
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
   font-family: "Bitter", serif;
-  color:#43d6b9ff;
+  color: #43d6b9ff;
   text-align: center;
 }
 
@@ -168,7 +168,6 @@ li.nav a:hover {
   border-color: #43d6b9ff;
   font-family: "Noto Sans HK", sans-serif;
   box-shadow: 8px 8px;
-  min-height: 10%;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
