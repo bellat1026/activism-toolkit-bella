@@ -35,8 +35,7 @@ h2 {
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
-  font-family: 'Barlow Condensed', sans-serif;
-  /*font-family: 'Bitter', serif;*/
+  font-family: 'Bitter', serif;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
@@ -76,6 +75,7 @@ li.nav a {
   color: #43d6b9ff;
   text-align: center;
   padding: 12px 14px;
+  font-size: 23px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -86,13 +86,11 @@ li.nav a {
 li.logo {
   display: block;
   color: #DED797;
-  font-size: 20px;
-  text-align: left center;
-  padding: 1px 5px;
+  font-size: 38px;
+  text-align: left;
+  padding: 12px 14px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
-  line-height: 1.3em;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
