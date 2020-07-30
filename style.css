@@ -62,10 +62,10 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #D35B3F;
+  background-color: #1e3449;
   border-style: solid;
-  border-color: 
-#1e3449;
+  border-color:#b26861;
+  
 }
 
 /* TODO (optional): Change the font size*/
@@ -81,7 +81,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #DED797;
+  color: #b26861;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
