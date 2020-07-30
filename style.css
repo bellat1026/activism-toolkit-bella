@@ -89,6 +89,17 @@ li.nav a {
   border-style: inset;
   border-color: #aacad3;
 }
+li.logo {
+  display: block;
+  color: #DED797;
+  font-size: 20px;
+  text-align: left center;
+  padding: 1px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.3em;
+}
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
 
