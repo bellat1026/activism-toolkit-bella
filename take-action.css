@@ -92,13 +92,6 @@ h2 {
   font-family: "Bitter", serif;
 }
 
-h4 {
-  font-family: "Barlow Condensed", sans-serif;
-  color: #43d6b9ff;
-  text-align: center;
-  font-size: 50px;
-}
-
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
@@ -107,27 +100,23 @@ p a {
 }
 
 /******************************************************/
-/************** CSS FOR TAKE-ACTION-HEADER.HTML **************/
+/************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 .page-header-action {
   width: 70%;
   background-color: #1e3449;
-  padding: 8px 6px;
+  padding: 5px 10px;
   margin: 15px;
   font-size: 23px;
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
-  font-family: "Noto Sans HK", sans-serif;
+  font-family: 'Noto Sans HK', sans-serif;
   box-shadow: 8px 8px;
   position: absolute;
   text-transform: uppercase;
   display: block;
-  right: 0;
-  left: 0;
-  margin-right: auto;
-  margin-left: auto;
-  min-height: 1em;
+  
 }
 
 /******************************************************/
@@ -169,7 +158,7 @@ p a {
 }
 
 .action-info-container img {
-  width: 30%;
+  width: 100%;
 }
 
 /* Right box under title; item in .flex-container */
