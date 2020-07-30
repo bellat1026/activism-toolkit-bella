@@ -86,16 +86,17 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 35px;
-  color: ##aacad3;
+  color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
   font-family: "Bitter", serif;
 }
 
 p {
-  font: 50px 'Barlow Condensed', sans-serif;
+  font: 29px "Barlow Condensed", sans-serif;
+  color: #DED797;
   text-align: center;
-  color: #05537c;
+  margin-top: 7%;
 }
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
@@ -116,16 +117,16 @@ p a {
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: "Noto Sans HK", sans-serif;
   box-shadow: 8px 8px;
   position: absolute;
   text-transform: uppercase;
   display: block;
-   right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 1em; 
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 1em;
 }
 
 /******************************************************/
@@ -160,11 +161,10 @@ p a {
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-
 /* Right box under title; item in .flex-container */
 .action-list-container {
   width: 75%;
-  padding: 35px;
+  padding: 20px;
   margin: 5%;
   flex-grow: 1;
   background-color: #0d9c90;
@@ -174,15 +174,16 @@ p a {
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
- img {
+img {
   width: 25%;
-   border-radius: 15px;
+  border-radius: 15px;
   border-style: solid;
   border-color: #43d6b9ff;
- display: block;
+  display: block;
+  box-shadow: 8px 8px;
   margin-left: auto;
   margin-right: auto;
-   margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
@@ -206,7 +207,7 @@ p a {
 
 /* Intructions inside the list container */
 #instructions {
-  font: 23px 'Barlow Condensed', sans-serif;
+  font: 23px "Barlow Condensed", sans-serif;
   text-align: center;
   color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
@@ -230,7 +231,7 @@ p a {
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-font; 'Barlow Condensed', sans-serif;
+  font: "Barlow Condensed", sans-serif;
   color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
