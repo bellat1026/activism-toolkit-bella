@@ -1,40 +1,3 @@
-html {
-  height: 100%;
-  font-size: 20px; /* Change the font size*/
-  font-family: "Roboto", sans-serif; /* Change the font */
-  line-height: 1.5em; /* Change the line height size*/
-  margin: 0em;
-  color: #DED797; /* Change the font color*/
-  background-color: #1e3449; /* Change the background color */
-  box-sizing: border-box;
-}
-
-h1 {
-  letter-spacing: 5px;
-  font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
-  font-family: "Bitter", serif;
-  color: #43d6b9ff;
-  text-align: center;
-}
-
-/*TODO: Change the font-family property to your linked font*/
-h2 {
-  letter-spacing: 3px;
-  font-size: 35px;
-  color: #43d6b9ff;
-  text-align: center;
-  line-height: 1.3em;
-  font-family: "Bitter", serif;
-}
-
-/*TODO: Change the color of a link when a person hovers over it*/
-p a {
-  color: #43d6b9ff;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
@@ -91,14 +54,58 @@ li.nav a:hover {
   color: #DED797;
 }
 
+/************************************************/
+/*************** MAIN CSS HERE ****************/
+/************************************************/
+
+body {
+  background-color: #31595E;
+}
+
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: #DED797; /* Change the font color*/
+  background-color: #1e3449; /* Change the background color */
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bitter", serif;
+  color: #43d6b9ff;
+  text-align: center;
+}
+
+/*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 35px;
+  color: #43d6b9ff;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: "Bitter", serif;
+}
+
+/*TODO: Change the color of a link when a person hovers over it*/
+p a {
+  color: #43d6b9ff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 .page-header-action {
-  width: 100%;
-  
+  width: 70%;
   background-color: #1e3449;
-  padding: 18px 42px;
+  padding: 5px 10px;
   margin: 15px;
   font-size: 23px;
   text-align: center;
@@ -106,10 +113,10 @@ li.nav a:hover {
   border-color: #43d6b9ff;
   font-family: 'Noto Sans HK', sans-serif;
   box-shadow: 8px 8px;
-  
   position: absolute;
   text-transform: uppercase;
-
+  display: block;
+  
 }
 
 /******************************************************/
