@@ -136,7 +136,7 @@ p a {
   left: 5%;
   right: 5%;
   margin: 5% 0;
-  width: 90%;
+  width: 100%;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
@@ -158,7 +158,10 @@ p a {
 }
 
 .action-info-container img {
-  width: 100%;
+  width: 25%;
+   border-radius: 15px;
+  border-style: solid;
+  border-color: #43d6b9ff;
 }
 
 /* Right box under title; item in .flex-container */
