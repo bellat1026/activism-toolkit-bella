@@ -86,12 +86,17 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 35px;
-  color: #43d6b9ff;
+  color: ##aacad3;
   text-align: center;
   line-height: 1.3em;
   font-family: "Bitter", serif;
 }
 
+p {
+  font: 50px 'Barlow Condensed', sans-serif;
+  text-align: center;
+  color: #05537c;
+}
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
@@ -201,9 +206,8 @@ p a {
 
 /* Intructions inside the list container */
 #instructions {
-  font: 14px "Bitter", serif;
+  font: 23px 'Barlow Condensed', sans-serif;
   text-align: center;
-  font-style: italic;
   color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -226,8 +230,8 @@ p a {
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  font: "Bitter", serif;
-  color: #1e3449;
+font; 'Barlow Condensed', sans-serif;
+  color: #05537c;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
