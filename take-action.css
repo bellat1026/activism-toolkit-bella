@@ -1,14 +1,116 @@
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: #DED797; /* Change the font color*/
+  background-color: #1e3449; /* Change the background color */
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bitter", serif;
+  color: #43d6b9ff;
+  text-align: center;
+}
+
+/*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 35px;
+  color: #43d6b9ff;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: "Bitter", serif;
+}
+
+/*TODO: Change the color of a link when a person hovers over it*/
+p a {
+  color: #43d6b9ff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* TODO (optional): Change the background color and/or border style */
+  background-color: #1e3449;
+  border-style: solid;
+  border-color: #43d6b9ff;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  /* TODO (optional): Change the font size*/
+  font-size: 16px;
+}
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  /* TODO (optional): Change the font color, decoration, and/or case */
+  display: block;
+  color: #43d6b9ff;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-style: inset;
+  border-color: #aacad3;
+}
+
+li.logo {
+  display: block;
+  color: #DED797;
+  font-size: 33px;
+  text-align: left;
+  padding: 12px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #b26861;
+  color: #DED797;
+}
+
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
-
 .page-header-action {
   width: 100%;
+  
+  background-color: #1e3449;
+  padding: 18px 42px;
+  margin: 15px;
+  font-size: 23px;
+  text-align: center;
+  border-style: solid;
+  border-color: #43d6b9ff;
+  font-family: 'Noto Sans HK', sans-serif;
+  box-shadow: 8px 8px;
+  
   position: absolute;
   text-transform: uppercase;
-  background-color: #0D38D3;
-}
 
+}
 
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
@@ -48,7 +150,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-.action-info-container img{
+.action-info-container img {
   width: 100%;
 }
 
@@ -73,7 +175,6 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-
 /* Header in the list container */
 #checklist-header {
   text-align: center;
@@ -89,7 +190,6 @@
   font-style: italic;
   color: #0D38D3;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-  
 }
 
 /* The div container for the unordered action item list */
@@ -104,7 +204,7 @@
   cursor: pointer;
   padding-top: 8px;
   padding-right: 20px;
-  padding-bottom: 8px; 
+  padding-bottom: 8px;
   padding-left: 35px;
   position: relative;
   list-style-type: none;
@@ -121,7 +221,7 @@
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
-  
+
   top: 15px;
   left: 13px;
   height: 10px;
@@ -167,8 +267,6 @@ like a checkmark!
   width: 7px;
 }
 
-
-
 /******************************************************/
 /** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
 /******************************************************/
@@ -176,7 +274,6 @@ like a checkmark!
 /* IF THE SCREEN IS ~~700 OR LESS~~ IMPLEMENT THESE RULES */
 
 @media only screen and (max-width: 700px) {
-
   .flex-container-action {
     flex-wrap: wrap;
   }
@@ -185,7 +282,6 @@ like a checkmark!
 /* IF THE SCREEN IS ~~701 OR MORE~~ IMPLEMENT THESE RULES */
 
 @media only screen and (min-width: 701px) {
-  
   .flex-container-action {
     flex-wrap: wrap;
   }
@@ -198,7 +294,6 @@ like a checkmark!
 
 /* IF THE SCREEN IS ~~1000 OR MORE~~ IMPLEMENT THESE RULES */
 @media only screen and (min-width: 1000px) {
-
   .flex-container-action {
     flex-wrap: nowrap;
   }
@@ -206,7 +301,6 @@ like a checkmark!
 
 /* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
 @media only screen and (min-width: 1250px) {
-  
   .flex-container-action {
     flex-wrap: nowrap;
   }
