@@ -17,7 +17,6 @@ html {
   color: #DED797; /* Change the font color*/
   background-color: #1e3449; /* Change the background color */
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
 }
 
 h1 {
@@ -36,7 +35,8 @@ h2 {
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
-  font-family: 'Bitter', serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  /*font-family: 'Bitter', serif;*/
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
@@ -59,7 +59,7 @@ ul.nav-bar {
   background-color: #1e3449;
   border-style: solid;
   border-color: #43d6b9ff;
- font-family: 'Bitter', serif;
+ font-family: 'Barlow Condensed', sans-serif;
 }
 
 li.nav {
@@ -93,7 +93,7 @@ li.logo {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.3em;
-  font-family: 'Bitter', serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -134,10 +134,12 @@ li.nav a:hover {
 .heading-home {
   padding: 2%;
   color: #43d6b9ff;
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
 }
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
@@ -146,10 +148,11 @@ li.nav a:hover {
   padding: 4%;
   margin: 3%;
   color: #31595E; /* Add the color of your font */
-  font-size: 25px; /* Add your font size*/
+  font-size: 28px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 /************************************************/
@@ -161,7 +164,7 @@ li.nav a:hover {
   background-color: #1e3449;
   padding: 20px 45px;
   margin: 35px;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
