@@ -17,13 +17,14 @@ html {
   color: #DED797; /* Change the font color*/
   background-color: #1e3449; /* Change the background color */
   box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
+ font-family: 'Bitter', serif;
   color: #43d6b9ff;
   text-align: center;
 }
@@ -31,11 +32,11 @@ h1 {
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
-  font-size: 30px;
-  font-family: "Roboto Mono", sans-serif;
+  font-size: 35px;
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
+  font-family: 'Bitter', serif;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
@@ -58,6 +59,7 @@ ul.nav-bar {
   background-color: #1e3449;
   border-style: solid;
   border-color: #43d6b9ff;
+ font-family: 'Bitter', serif;
 }
 
 li.nav {
@@ -91,6 +93,7 @@ li.logo {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.3em;
+  font-family: 'Bitter', serif;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -158,10 +161,11 @@ li.nav a:hover {
   background-color: #1e3449;
   padding: 20px 45px;
   margin: 35px;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
+  font-family: 'Playfair Display', serif;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
