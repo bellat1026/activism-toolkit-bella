@@ -23,8 +23,8 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
- font-family: 'Bitter', serif;
-  color: #43d6b9ff;
+  font-family: "Bitter", serif;
+  color:#43d6b9ff;
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ h2 {
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
@@ -58,7 +58,7 @@ ul.nav-bar {
   background-color: #1e3449;
   border-style: solid;
   border-color: #43d6b9ff;
- font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 li.nav {
@@ -91,7 +91,7 @@ li.logo {
   padding: 12px 14px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -136,7 +136,7 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: bold;
 }
 
@@ -150,7 +150,7 @@ li.nav a:hover {
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 /************************************************/
@@ -166,7 +166,7 @@ li.nav a:hover {
   text-align: center;
   border-style: solid;
   border-color: #43d6b9ff;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: "Noto Sans HK", sans-serif;
   box-shadow: 8px 8px;
 }
 
