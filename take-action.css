@@ -137,7 +137,6 @@ p a {
   right: 5%;
   margin: 5% 0;
   width: 90%;
-
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
