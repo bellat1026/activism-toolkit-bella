@@ -173,8 +173,7 @@ li.nav a:hover {
 
 .main-message,
 .image-one,
-.image-two 
-.image-three {
+.image-two {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,16 +194,10 @@ li.nav a:hover {
 .image-one {
   background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2Fgarbage-4634114_1280.jpg?v=1596071739288");
 }
-
+/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
   background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F960x0.jpg?v=1595993618368");
 }
-
-.image-three {
-  background-image: url("https://cdn.glitch.com/974a40d2-bd66-4fce-bc7b-49f55c5a5141%2F960x0.jpg?v=1595993618368");
-}
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-
 /* TODO: Add more background images by repeating the process above */
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
